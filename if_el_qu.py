@@ -1,4 +1,4 @@
-https://csiplearninghub.com/python-if-else-conditional-statement-practice/  ques link
+#https://csiplearninghub.com/python-if-else-conditional-statement-practice/  ques link
 #QUES1
 tot=int(input("Enter your marks:-"))
 if tot>90 :
@@ -58,20 +58,27 @@ if num%2==0 :
     print("Even number")
 else :
     print("Odd number")
+#efficient way
+num = int(input("Enter the number:-"))
+r=num%2
+if r == 0:
+    print("Even number")
+if r == 1:
+    print("Odd number")
 
-ques7
+#ques7
 num=int(input("Enter the number:-"))
 if num%7==0 :
     print("Divisible by 7")
 else :
     print("Not divisible by 7")
-ques8
+#ques8
 num=int(input("Enter the number:-"))
 if num%5==0 :
     print("Hello")
 else :
     print("Bye")
-ques9
+#ques9
 price=0
 unit=eval(input("Enter total unit:-"))
 if unit<=100 :
@@ -81,17 +88,17 @@ if unit>100 and unit<=200 :
 if unit>200 :
     price = unit*10
 print("Total amount to pay:",price)
-ques10
+#ques10
 num=int(input("Enter the number:-"))
 print("The lat digit is:-",num%10)
-ques11
+#ques11
 num=int(input("Enter any number:-"))
 id=num%10
 if id%3==0:
     print("The number is divisible by 3")
 else:
     print("The number is not divisible by 3")
-ques12
+#ques12
 mnt=int(input("Enter any number between 1 to 12:-"))
 year=0
 if mnt==1:
@@ -124,7 +131,7 @@ if mnt==12:
     print("December-Number of days is 31")
 if mnt>12:
     print("Invalid input : Enter any number between 1 to 12")
-ques13
+#ques13
 city=str(input("Enter the city:-"))
 if city.lower()=="delhi":
     print("The best monument to visit is Red fort")
@@ -132,4 +139,4 @@ if city.lower()=="agra":
     print("The best monument to visit is Taj mahal")
 if city.lower() == "jaipur":
     print("The best monument to visit is Jal mahal")
-ques14
+#ques14
