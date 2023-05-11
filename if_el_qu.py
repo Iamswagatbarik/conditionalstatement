@@ -140,3 +140,66 @@ if city.lower()=="agra":
 if city.lower() == "jaipur":
     print("The best monument to visit is Jal mahal")
 #ques14
+indian = ["samosa", "daal", "naan"]
+chinese = ["egg roll", "chowmein", "fried rice"]
+italian = ["pizza", "pasta", "risotto"]
+
+dish=input("Enter a dish name:-")
+
+if dish in indian:
+    print(f'{dish} is indian')
+elif dish in chinese:
+    print(f'{dish} is chinese')
+elif dish in italian:
+    print(f'{dish} is italian')
+else:
+    print("I don't know what dish it this.")
+#ques15 calculatingthEBMI
+height = eval(input("Enter your height:-"))
+weight = eval(input("Enter your weight:-"))
+BMI = weight / (height**2)
+print(f'Your BMI is {BMI}')
+if BMI >=30 :
+    print("Obesity")
+if BMI > 25 and BMI < 29 :
+    print("Over weight")
+if BMI > 25 and BMI < 29 :
+    print("Over weight")
+if BMI > 18.5 and BMI < 25 :
+    print("Normal weight")
+if BMI < 18.5 :
+    print("Under weight")
+#ques16
+India = ["Mumbai", "Delhi", "Kolkata", "Chennai", "Bangalore", "Hyderabad", "Ahmedabad", "Pune", "Jaipur", "Surat"]
+USA = ["New York City", "Los Angeles", "Chicago", "Houston", "Phoenix", "Philadelphia", "San Antonio", "San Diego", "Dallas", "San Jose"]
+UK = ["London", "Manchester", "Birmingham", "Glasgow", "Edinburgh", "Liverpool", "Bristol", "Leeds", "Newcastle", "Cardiff"]
+
+
+city = input("Enter a city name:-")
+city = city.lower()
+
+if city in India :
+    print(f"{city} belongs to India")
+elif city in USA :
+    print(f"{city} belongs to USA")
+elif city in UK :
+    print(f"{city} belongs to UK")
+
+
+city1 = input("Enter the 1st city:-")
+city2 = input("Enter the 2nd city:-")
+if city1 in India and city2 in India:
+    print('Both cities are in India')
+elif city1 in USA and city2 in USA:
+    print('Both cities are in USA')
+elif city1 in UK and city2 in UK:
+    print('Both cities are in UK')
+else:
+    print("They don't belong to same country")
+
+
+
+
+
+
+
